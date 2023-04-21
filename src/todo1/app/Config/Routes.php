@@ -32,8 +32,9 @@ $routes->resource('todos');
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('todo', 'Todo::index');
-$routes->post('todo', 'Todo::create');
+$routes->get('/hello', 'Hello::index');
+$routes->get('/todo', 'Todo::index');
+$routes->post('/todo', 'Todo::create');
 
 /*
  * --------------------------------------------------------------------

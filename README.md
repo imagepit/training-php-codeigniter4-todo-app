@@ -25,4 +25,5 @@ php spark serve --host 0.0.0.0
 
 ブラウザで次のURLにアクセスすると、「Hello World!」というテキストが表示されます。
 
-[http://localhost:8080/todo](http://localhost:8080/todo)
+- [http://localhost:8080/hello](http://localhost:8080/hello)
+- [http://localhost:8080/todo](http://localhost:8080/todo)
